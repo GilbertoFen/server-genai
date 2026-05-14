@@ -1,0 +1,13 @@
+# Entorno virtual
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Variables de entorno (¡NUNCA SUBIR!)
+.env
+
+# Otros
+.python-version
