@@ -1,7 +1,9 @@
 ###
-POST http://localhost:8010/chat
+POST https://server-genai.onrender.com/chat
 Content-Type : application/json
 
 {
     "message": "Holaaaaaa?"
 }
+###
+POST http://localhost:8081/analyze-profile
