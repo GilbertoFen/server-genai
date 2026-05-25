@@ -33,7 +33,7 @@ class AnalysisRequest(BaseModel):
     
 class ChatRequest(BaseModel):
     message: str
-    student_profile: str  # Aquí NestJS mandará: "Alumno: Gil, Promedio: 9, Intereses: Cloud..."
+    student_profile: str  
     history: List[Dict[str, Any]]
 
 @app.get("/")
@@ -44,7 +44,7 @@ def root():
 @app.post("/chat")
 async def chat(req: ChatRequest):
     try:
-        # 2. INYECTAMOS EL PERFIL COMO INSTRUCCIÓN DEL SISTEMA (Contexto)
+       
         instruccion_sistema = f"""
         Eres PumaIA, un asistente académico experto de la carrera MAC en FES Acatlán.
         ESTE ES EL PERFIL ACTUALIZADO DEL ALUMNO CON EL QUE ESTÁS HABLANDO:
@@ -53,29 +53,25 @@ async def chat(req: ChatRequest):
         Usa esta información para dar respuestas personalizadas. Si te pregunta su promedio o intereses, dáselos basados en este contexto.
         """
 
-        # 3. RECONSTRUIMOS LA MEMORIA DE LA CONVERSACIÓN
-        # Transformamos el historial que manda NestJS al formato que pide la API de Google
         mensajes_historial = []
         for msg in req.history:
-            # En Gemini, el rol del bot se llama "model", el usuario es "user"
+            
             rol_gemini = "model" if msg["role"] == "ASSISTANT" else "user"
             mensajes_historial.append({
                 "role": rol_gemini,
                 "parts": [{"text": msg["content"]}]
             })
         
-        # Agregamos el mensaje nuevo del usuario al final de la historia
         mensajes_historial.append({
             "role": "user",
             "parts": [{"text": req.message}]
         })
 
-        # 4. LLAMAMOS A GEMINI CON TODO EL CONTEXTO Y LA MEMORIA
         response = client.models.generate_content(
             model="gemini-2.5-flash-lite",
-            contents=mensajes_historial, # Mandamos la historia completa + el mensaje nuevo
+            contents=mensajes_historial, 
             config={
-                "system_instruction": instruccion_sistema # Le damos el perfil del alumno como regla base
+                "system_instruction": instruccion_sistema 
             }
         )
 
@@ -88,7 +84,7 @@ async def chat(req: ChatRequest):
 @app.post("/analyze-experience")
 async def analyze_experience(req: ExperienceRequest):
     try:
-        # Armamos el prompt estricto
+        
         prompt = f"""
         Eres un reclutador experto en TI. Analiza la siguiente experiencia profesional:
         "{req.experience_text}"
@@ -100,18 +96,14 @@ async def analyze_experience(req: ExperienceRequest):
         }}
         """
 
-        # Usamos tu sintaxis actual del cliente de Google
         response = client.models.generate_content(
-            model="gemini-2.5-flash-lite", # Usa el que ya tienes
+            model="gemini-2.5-flash-lite", 
             contents=prompt,
-            # Si tu versión del SDK lo permite, fuerza el JSON así:
-            # config={"response_mime_type": "application/json"}
         )
 
-        # Gemini a veces devuelve el string con ```json ... ```, lo limpiamos por si acaso
+        
         raw_text = response.text.replace("```json", "").replace("```", "").strip()
         
-        # Lo convertimos a un diccionario de Python para que FastAPI lo envíe como JSON real a NestJS
         parsed_json = json.loads(raw_text)
 
         return parsed_json
@@ -159,8 +151,6 @@ async def analyze_profile(req: AnalysisRequest):
           "meta_opportunities": "Escribe aquí las áreas de oportunidad encontradas, separadas por viñetas."
         }}
         """
-
-        # Forzamos a Gemini a responder en un formato JSON estructurado rígido
         response = client.models.generate_content(
             model="gemini-2.5-flash-lite",
             contents=prompt_maestro,
@@ -168,8 +158,6 @@ async def analyze_profile(req: AnalysisRequest):
                 response_mime_type="application/json"
             )
         )
-
-        # Parseamos la respuesta para asegurar la validez antes de enviarla a NestJS
         result_json = json.loads(response.text)
         return result_json
 
