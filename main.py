@@ -169,6 +169,11 @@ async def analyze_profile(req: AnalysisRequest):
         A continuación tienes el contexto completo de un alumno (materias, intereses, cursos, promedio):
         {req.student_context}
         
+         INSTRUCCIONES SOBRE EL HISTORIAL ACADÉMICO:
+        - Si en el 'PERFIL DEL ALUMNO' el promedio aparece como 'NO SUBIDO (0)', significa que el alumno AÚN NO ha cargado su tira de materias o historial oficial.
+        - NO intentes estimar promedios ni dar consejos basados en datos inexistentes.
+        
+        
         Tu tarea es generar un informe detallado basado estrictamente en sus datos que contenga:
         1. Resumen General del perfil.
         2. Fortalezas detectadas.
