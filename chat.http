@@ -6,4 +6,28 @@ Content-Type : application/json
     "message": "Holaaaaaa?"
 }
 ###
-POST http://localhost:8081/analyze-profile
+POST http://localhost:8000/chat
+Content-Type: application/json
+
+{
+  "message": "¿En qué área crees que me iría mejor trabajando?",
+  "student_profile": "Nombre: LUIS GILBERTO. Intereses: Desarrollo Web, Canto, videojuegos, no le gusta la programación, es más de diseñar. Promedio: 9.23. Semestre: 6. Experiencia: Desarrollo Backend e Infraestructura.",
+  "history": [
+    {
+      "role": "USER",
+      "content": "¡Hola! ¿Me puedes ayudar con mi carrera?"
+    },
+    {
+      "role": "ASSISTANT",
+      "content": "¡Hola Luis Gilberto! Claro que sí. Como asistente de la carrera MAC, estoy aquí para orientarte. ¿Qué dudas tienes?"
+    }
+  ]
+}
+
+###
+POST http://localhost:8000/analyze-experience
+Content-Type : application/json
+
+{
+  "experience_text": "Trabajé 2 años desarrollando microservicios con Java y Spring Boot. Además administraba las bases de datos en SQL Server."
+}
