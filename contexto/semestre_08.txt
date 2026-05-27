@@ -1,0 +1,193 @@
+Materia: Base de Datos Distribuidas
+Clave: 1050
+Semestre: 8
+	
+	Grupo 2801 - Numero 1
+	Profesor: Javier Rosas Hernandez
+	Horario: Viernes de 07:00 a 11:00
+
+	Grupo 2852 - Numero 2
+	Profesor: Diego Antonio Colin Castañeda
+	Horario: Lunes y Miercoles de 18:00 a 20:00
+
+---
+
+Materia: Programación Paralela y COncurrente
+Clave: 106
+Semestre: 8
+	
+	Grupo 2801 - Numero 1
+	Profesor: Jose Ricardo Mendoza Villar
+	Horario: Sabado de 08:00 a 12:00
+
+---
+
+Materia: Seguridad Computacional
+Clave: 1070
+Semestre: 8
+	
+	Grupo 2801 - Numero 1
+	Profesor: Ricardo Rodriguez Arana
+	Horario: Martes y Jueves de 09:00 a 11:00
+
+	Grupo 2852 - Numero 2
+	Profesor: Eduardo Eloy Loza Pacheco
+	Horario: Lunes y Miercoles de 16:00 a 18:00
+
+	Grupo 2854 - Numero 2
+	Profesor: Adolfo Ulises Castro Santamaria 
+	Horario: Martes y Jueves de 20:00 a 22:00
+
+---
+
+Materia: Mineria de Datos
+Clave: 1066
+Semestre: 8
+	
+	Grupo 2801 - Numero 1
+	Profesor: Marisa Ivonne Zamora Carrillo
+	Horario: Lunes y Miercoles de 07:00 a 09:00
+
+	Grupo 2805 - Numero 2
+	Profesor: Oscar Daniel Acosta Gonzalez
+	Horario: Lunes y Miercoles de 07:00 a 09:00
+
+	Grupo 2852 - Numero 2
+	Profesor: Javier Rosas Hernandez
+	Horario: Martes y Jueves de 20:00 a 22:00
+
+	Grupo 2853 - Numero 2
+	Profesor: Miriam Angeles Uribe
+	Horario: Viernes de 18:00 a 22:00
+
+---
+
+Materia: Modelos Economicos
+Clave: 1093
+Semestre: 8
+	
+	Grupo 2801 - Numero 1
+	Profesor: Nemesio Orozco Sanchez
+	Horario: Martes y Jueves de 13:00 a 15:00
+
+---
+
+Materia: Temas Selectos de Optimizacion
+Clave: 1
+Semestre: 8
+	
+	Grupo 2801 - Numero 1
+	Profesor: Jose Alberto Melendez Piña
+	Horario: Martes y Jueves de 11:00 a 13:00
+
+---
+
+Materia: Pronosticos
+Clave: 1095
+Semestre: 8
+	
+	Grupo 2801 - Numero 1
+	Profesor: Jaime Vergara Prado
+	Horario: Viernes de 11:00 a 15:00
+
+	Grupo 2853 - Numero 2
+	Profesor: Norma Hernandez Hernandez
+	Horario: Martes y Jueves de 20:00 a 22:00
+
+---
+
+Materia: Análisis de Fourier
+Clave: 1048
+Semestre: 8
+	
+	Grupo 2801 - Numero 1
+	Profesor: Enrique Espinosa Loyola
+	Horario: Martes y Jueves de 07:00 a 09:00
+
+---
+
+Materia: Calidad y Confiabilidad de Sistemas
+Clave: 1092
+Semestre: 8
+	
+	Grupo 2801 - Numero 1
+	Profesor: Diego Alan Ramirez Yañez
+	Horario: Martes y Jueves de 07:00 a 09:00
+
+---
+
+
+Materia: Temas Selectos de Matemáticas 2
+Clave: 1099
+Semestre: 8
+	
+	Grupo 2801 - Numero 1
+	Profesor: Julio Cesar Galindo
+	Horario: Lunes y Miercoles de 09:00 a 11:00
+	
+	Grupo 2853 - Numero 2
+	Profesor: Jairo Olguin Roque
+	Horario: Martes y Jueves de 18:00 a 20:00
+
+---
+
+
+Materia: Administración de Redes
+Clave: 1062
+Semestre: 8
+	
+	Grupo 2801 - Numero 1
+	Profesor: Sergio Quiroz Almaraz
+	Horario: Viernes de 07:00 a 11:00
+
+	Grupo 2855 - Numero 2
+	Profesor: Fernando Israel Gonzalez Trejo
+	Horario: Lunes y Miercoles de 20:00 a 22:00
+	
+	Grupo 2856 - Numero 3
+	Profesor: Jose Roberto Bautista Mora
+	Horario: Martes y Jueves de 18:00 a 20:00
+---
+
+Materia: Practica Profesional
+Clave: 1094
+Semestre: 8
+	
+	Grupo 2801 - Numero 1
+	Profesor: Juan Carlos Rendon Aguilar
+	Horario: Sabado de 07:00 a 15:00
+
+---
+
+Materia: Temas Selectos de Administración y Finazas
+Clave: 1097
+Semestre: 8
+	
+	Grupo 2801 - Numero 1
+	Profesor: Espartaco Martinez Tolentino
+	Horario: Martes y Jueves de 11:00 a 13:00
+
+---
+
+Materia: Temas Selectos de Computacion
+Clave: 1098
+Semestre: 8
+	
+	Grupo 2801 - Numero 1
+	Profesor: Dulce Lourdes Loza Pacheco
+	Horario: Martes y Jueves de 09:00 a 11:00
+
+	Grupo 2856 - Numero 2
+	Profesor: David Bryan Padilla Aleman
+	Horario: Lunes y Miercoles de 20:00 a 22:00
+	
+---
+
+Materia: Investigación en Matemáticas Aplicadas y Computacion
+Clave: 1716
+Semestre: 8
+	
+	Grupo 2801 - Numero 1
+	Profesor: Armando Amador Molina
+	Horario: Lunes y Miercoles de 16:00 a 18:00
+

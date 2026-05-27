@@ -1,0 +1,267 @@
+Materia: Algebra Lineal
+Clave: 1206
+Semestre: 2
+	
+	Grupo 2201 - Numero 1
+	Profesor: Jairo Olguin Roque
+	Horario: Lunes, Miércoles y Viernes de 11:00 a 13:00
+
+	Grupo 2202 - Numero 2
+	Profesor: Gustavo Gonzalez Ramos
+	Horario: Lunes, Miércoles y Viernes de 11:00 a 13:00
+
+	Grupo 2203 - Numero 3
+	Profesor: Adriana Davila Santos
+	Horario: Lunes, Miércoles y Viernes de 09:00 a 11:00
+
+	Grupo 2204 - Numero 4
+	Profesor: Adriana Davila Santos
+	Horario: Lunes, Miércoles y Viernes de 11:00 a 13:00
+
+	Grupo 2205 - Numero 5
+	Profesor: Claudia Cristina Reyes Montes de Oca
+	Horario: Lunes, Miércoles y Viernes de 07:00 a 09:00
+
+	Grupo 2251 - Numero 6
+	Profesor: Francisco Guillermo Jauregui Ballesteros
+	Horario: Lunes, Miércoles y Viernes de 16:00 a 18:00
+
+	Grupo 2252 - Numero 7
+	Profesor: Ernesto Baltazar Martinez
+	Horario: Lunes, Miércoles y Viernes de 20:00 a 22:00
+
+	Grupo 2253 - Numero 8
+	Profesor: Juan Carlos Pacheco Paez
+	Horario: Lunes, Miércoles y Viernes de 16:00 a 18:00
+
+	Grupo 2254 - Numero 9
+	Profesor: Virginia Haro Sanchez
+	Horario: Lunes, Miércoles y Viernes de 16:00 a 18:00
+	
+	Grupo 2255 - Numero 10
+	Profesor: Christian Carlos Delgado Elizondo
+	Horario: Lunes, Miércoles y Viernes de 18:00 a 20:00
+
+	Grupo 2256 - Numero 11
+	Profesor: Jesus Gil Galindo Cuevas
+	Horario: Lunes, Miércoles y Viernes de 14:00 a 16:00
+
+---
+
+Materia: Calculo 2
+Clave: 1207
+Semestre: 2
+	
+	Grupo 2201 - Numero 1
+	Profesor: Domingo Vite Martinez
+	Horario: Lunes, Miércoles y Viernes de 07:00 a 09:00
+
+	Grupo 2202 - Numero 2
+	Profesor: Wendy Coronel Ramirez
+	Horario: Lunes, Miércoles y Viernes de 09:00 a 11:00
+
+	Grupo 2203 - Numero 3
+	Profesor: Ricardo Guzman Fuentes
+	Horario: Lunes, Miércoles y Viernes de 07:00 a 09:00
+
+	Grupo 2204 - Numero 4
+	Profesor: Esperanza Georgina Valdes y Medina
+	Horario: Lunes, Miércoles y Viernes de 09:00 a 11:00
+
+	Grupo 2205 - Numero 5
+	Profesor: Ana Karla Garcia Perez
+	Horario: Lunes, Miércoles y Viernes de 11:00 a 13:00
+
+	Grupo 2251 - Numero 6
+	Profesor: Ernesto Baltazar Martinez
+	Horario: Lunes, Miércoles y Viernes de 18:00 a 20:00
+
+	Grupo 2252 - Numero 7
+	Profesor: Ricardo Guzman Fuentes
+	Horario: Lunes, Miércoles y Viernes de 18:00 a 20:00
+
+	Grupo 2253 - Numero 8
+	Profesor: Jesus Gil Galindo Cuevas
+	Horario: Lunes, Miércoles y Viernes de 14:00 a 16:00
+
+	Grupo 2254 - Numero 9
+	Profesor: Hector Axel Saavedra Luis
+	Horario: Lunes, Miércoles y Viernes de 18:00 a 20:00
+	
+	Grupo 2255 - Numero 10
+	Profesor: Ricardo Guzman Fuentes
+	Horario: Lunes, Miércoles y Viernes de 16:00 a 18:00
+
+	Grupo 2256 - Numero 11
+	Profesor: Hector Axel Saavedra Luis
+	Horario: Lunes, Miércoles y Viernes de 14:00 a 16:00	
+
+---
+
+Materia: Geometría del Espacio
+Clave: 1211
+Semestre: 2
+	
+	Grupo 2201 - Numero 1
+	Profesor: Miguel Angel Guadarrama Garcia
+	Horario: Martes y Jueves de 09:00 a 11:00
+
+	Grupo 2202 - Numero 2
+	Profesor: Miguel Angel Guadarrama Garcia
+	Horario: Martes y Jueves de 07:00 a 09:00
+
+	Grupo 2203 - Numero 3
+	Profesor: Ana Karla Garcia Perez
+	Horario: Martes y Jueves de 09:00 a 11:00
+
+	Grupo 2204 - Numero 4
+	Profesor: Ernesto Senties Escalante
+	Horario: Martes y Jueves de 11:00 a 13:00
+
+	Grupo 2205 - Numero 5
+	Profesor: Alberto Lazcano Garcia
+	Horario: Martes y Jueves de 09:00 a 11:00
+
+	Grupo 2251 - Numero 6
+	Profesor: Ana Karla Garcia Perez
+	Horario: Martes y Jueves de 16:00 a 18:00
+
+	Grupo 2252 - Numero 7
+	Profesor: Elsa Frias Silver
+	Horario: Martes y Jueves de 18:00 a 20:00
+
+	Grupo 2253 - Numero 8
+	Profesor: Monica Zaima Víquez Cano
+	Horario: Martes y Jueves de 18:00 a 20:00
+
+	Grupo 2254 - Numero 9
+	Profesor: Sergio Miguel Rosales Sanchez
+	Horario: Martes y Jueves de 16:00 a 18:00
+
+---
+
+Materia: Ingles Intermedio 1
+Clave: 1212
+Semestre: 2
+	
+	Grupo 2201 - Numero 1
+	Profesor: Lydberta Pozas Gil
+	Horario: Lunes de 13:00 a 15:00, Martes y Jueves de 11:00 a 13:00
+
+	Grupo 2202 - Numero 2
+	Profesor: Maria Jimena Vivanco Perez
+	Horario: Viernes de 13:00 a 15:00, Martes y Jueves de 11:00 a 13:00
+
+	Grupo 2203 - Numero 3
+	Profesor: Maria Eugenia Marquez Miguel
+	Horario: Viernes de 13:00 a 15:00, Martes y Jueves de 11:00 a 13:00
+
+	Grupo 2204 - Numero 4
+	Profesor: Lydberta Pozas Gil
+	Horario: Martes, Jueves y Viernes de 13:00 a 15:00
+
+	Grupo 2251 - Numero 5
+	Profesor: Nestor Daniel Barragan Garcia
+	Horario: Lunes de 20:00 a 22:00, Martes y Jueves de 18:00 a 20:00
+
+	Grupo 2252 - Numero 6
+	Profesor: Israel Nuevo Gonzalez
+	Horario: Martes, Jueves y Viernes de 14:00 a 16:00
+
+	Grupo 2253 - Numero 7
+	Profesor: Pablo Avalos Guzman
+	Horario: Viernes de 20:00 a 22:00, Martes y Jueves de 16:00 a 18:00
+
+---
+
+Materia: Programación 2
+Clave: 1213
+Semestre: 2
+	
+	Grupo 2201 - Numero 1
+	Profesor: Alma Lopez Blanco
+	Horario: Lunes, Miércoles y Viernes de 09:00 a 11:00
+
+	Grupo 2202 - Numero 2
+	Profesor: Alma Lopez Blanco
+	Horario: Lunes, Miércoles y Viernes de 07:00 a 09:00
+
+	Grupo 2203 - Numero 3
+	Profesor: Georgina Eslava Garcia
+	Horario: Lunes, Miércoles y Viernes de 11:00 a 13:00
+
+	Grupo 2204 - Numero 4
+	Profesor: Martin Mendieta Gonzalez
+	Horario: Lunes, Miércoles y Viernes de 07:00 a 09:00
+
+	Grupo 2205 - Numero 5
+	Profesor: Andres Hernandez Balderas
+	Horario: Lunes, Miércoles y Viernes de 09:00 a 11:00
+
+	Grupo 2206 - Numero 6
+	Profesor: Eduardo Eloy Loza Pacheco
+	Horario: Lunes, Miércoles y Viernes de 11:00 a 13:00
+
+	Grupo 2251 - Numero 7
+	Profesor: Georgina Eslava Garcia
+	Horario: Lunes, Miércoles y Viernes de 14:00 a 16:00
+
+	Grupo 2252 - Numero 8
+	Profesor: Maria Tapia Aguilar
+	Horario: Lunes, Miércoles y Viernes de 16:00 a 18:00
+
+	Grupo 2253 - Numero 9
+	Profesor: Juan Jose Cortes Buenrostro
+	Horario: Lunes, Miércoles y Viernes de 18:00 a 20:00
+
+	Grupo 2254 - Numero 10
+	Profesor: Rene Martinez Torres
+	Horario: Martes, Jueves y Viernes de 14:00 a 16:00
+	
+	Grupo 2255 - Numero 11
+	Profesor: Maritza Nova Juarez
+	Horario: Lunes, Martes y Jueves de 20:00 a 22:00
+
+---
+
+---
+
+Materia: Redes de Computo
+Clave: 1214
+Semestre: 2
+	
+	Grupo 2201 - Numero 1
+	Profesor: Alejandro Roberto Rubio Perez
+	Horario: Martes y Jueves de 07:00 a 09:00
+
+	Grupo 2202 - Numero 2
+	Profesor: Efren Pablo Hector Gonzalez Videgaray
+	Horario: Martes y Jueves de 09:00 a 11:00
+
+	Grupo 2203 - Numero 3
+	Profesor: Sergio Quiroz Almaraz
+	Horario: Martes y Jueves de 07:00 a 09:00
+
+	Grupo 2204 - Numero 4
+	Profesor: Sergio Quiroz Almaraz
+	Horario: Martes y Jueves de 09:00 a 11:00
+
+	Grupo 2205 - Numero 5
+	Profesor: Efren Pablo Hector Gonzalez Videgaray
+	Horario: Martes y Jueves de 07:00 a 09:00
+
+	Grupo 2251 - Numero 6
+	Profesor: Fernando Israel Gonzalez Trejo
+	Horario: Martes y Jueves de 16:00 a 18:00
+
+	Grupo 2252 - Numero 7
+	Profesor: Mauricio Rico Castro
+	Horario: Martes y Jueves de 16:00 a 18:00
+
+	Grupo 2253 - Numero 8
+	Profesor: Erick Salvador Solorzano Gramajo 
+	Horario: Martes y Jueves de 14:00 a 16:00
+
+	Grupo 2254 - Numero 9
+	Profesor: Jose Roberto Bautista Mora
+	Horario: Martes y Jueves de 14:00 a 16:00		

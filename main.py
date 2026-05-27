@@ -25,16 +25,43 @@ app.add_middleware(
 )
 
 
+def cargar_archivo(nombre_archivo):
+    try:
+        with open(f"contexto/{nombre_archivo}", "r", encoding="utf-8") as f:
+            return f.read()
+    except Exception as e:
+        print(f"Error al cargar {nombre_archivo}: {e}")
+        return ""
+
+
+CONTEXTO_ACADEMICO = f"""
+BECAS DISPONIBLES:
+{cargar_archivo('becas.txt')}
+
+MATERIAS SEMESTRE 2:
+{cargar_archivo('semestre_02.txt')}
+
+MATERIAS SEMESTRE 4:
+{cargar_archivo('semestre_04.txt')}
+
+MATERIAS SEMESTRE 8:
+{cargar_archivo('semestre_08.txt')}
+"""
+
+
 class ExperienceRequest(BaseModel):
     experience_text: str
 
+
 class AnalysisRequest(BaseModel):
     student_context: str
-    
+
+
 class ChatRequest(BaseModel):
     message: str
-    student_profile: str  
+    student_profile: str
     history: List[Dict[str, Any]]
+
 
 @app.get("/")
 def root():
@@ -44,7 +71,7 @@ def root():
 @app.post("/chat")
 async def chat(req: ChatRequest):
     try:
-       
+
         instruccion_sistema = f"""
         Eres PumaIA, el asistente académico y profesional exclusivo para alumnos de la carrera de Matemáticas Aplicadas y Computación (MAC) en FES Acatlán, UNAM.
         
@@ -56,29 +83,23 @@ async def chat(req: ChatRequest):
         - TU ÚNICO ÁMBITO es: Trámites, materias, vida académica en FES Acatlán, y orientación profesional para alumnos MAC.
         - Si el usuario insiste en temas ajenos como POO, programación genérica, matemáticas puras u otros, RECHAZA la solicitud manteniendo tu identidad: "Como PumaIA, mi rol es apoyarte únicamente en temas de la licenciatura en MAC y trámites de FES Acatlán. No puedo ayudarte con temas ajenos a tu trayectoria en la facultad."
 
-        REGLAS DE COMPORTAMIENTO (TÚ ERES PUMAIA):
-        1. AMBITO DE RESPUESTA: Tu conocimiento se limita EXCLUSIVAMENTE a:
-           - Trámites, materias, optativas y vida académica en FES Acatlán y la carrera MAC.
-           - Orientación profesional basada en el perfil del alumno proporcionado.
-           - Interpretación de documentos académicos del alumno.
-        
-        2. RESTRICCIÓN DE TEMAS: Si el usuario te pregunta sobre temas ajenos (programación general, tutoriales de código, resolución de ejercicios matemáticos abstractos, cultura general, política, o cualquier cosa que no sea sobre la carrera MAC o la FES Acatlán), debes responder cortésmente pero con firmeza: 
-           "Como asistente PumaIA, solo puedo ayudarte con temas específicos de la carrera MAC, trámites de la FES Acatlán o tu orientación profesional. Por favor, realiza una consulta relacionada con tu trayectoria en la facultad."
-        
-        3. EFICIENCIA DE TOKENS: No expliques conceptos técnicos de programación a menos que sea estrictamente necesario para la orientación profesional del alumno. No resuelvas tareas ni generes código genérico. Tu objetivo es la orientación, no la ejecución de software.
-        
-        4. RESPUESTAS: Mantente siempre enfocado en el perfil proporcionado.
+        INSTRUCCIONES DE COMPORTAMIENTO:
+        1. AMBITO: Tu conocimiento se limita exclusivamente a la carrera MAC, trámites de FES Acatlán, orientación profesional y la información proporcionada en la "BASE DE CONOCIMIENTO".
+        2. CONSULTAS ESPECÍFICAS: Si el alumno pregunta por materias, profesores, horarios o becas, utiliza la "BASE DE CONOCIMIENTO" para dar una respuesta precisa.
+        3. RESTRICCIÓN: Si te preguntan sobre temas técnicos ajenos (POO, tutoriales, matemáticas abstractas no relacionadas), responde: 
+           "Como PumaIA, mi rol es apoyarte únicamente en temas de la licenciatura en MAC y trámites de FES Acatlán. No puedo ayudarte con temas ajenos a tu trayectoria en la facultad."
+        4. EFICIENCIA: No resuelvas tareas ni generes código genérico. Mantente enfocado en la orientación.
         """
 
         mensajes_historial = []
         for msg in req.history:
-            
+
             rol_gemini = "model" if msg["role"] == "ASSISTANT" else "user"
             mensajes_historial.append({
                 "role": rol_gemini,
                 "parts": [{"text": msg["content"]}]
             })
-        
+
         mensajes_historial.append({
             "role": "user",
             "parts": [{"text": req.message}]
@@ -86,9 +107,9 @@ async def chat(req: ChatRequest):
 
         response = client.models.generate_content(
             model="gemini-2.5-flash-lite",
-            contents=mensajes_historial, 
+            contents=mensajes_historial,
             config={
-                "system_instruction": instruccion_sistema 
+                "system_instruction": instruccion_sistema
             }
         )
 
@@ -101,7 +122,7 @@ async def chat(req: ChatRequest):
 @app.post("/analyze-experience")
 async def analyze_experience(req: ExperienceRequest):
     try:
-        
+
         prompt = f"""
         Eres un reclutador experto en TI. Analiza la siguiente experiencia profesional:
         "{req.experience_text}"
@@ -114,19 +135,20 @@ async def analyze_experience(req: ExperienceRequest):
         """
 
         response = client.models.generate_content(
-            model="gemini-2.5-flash-lite", 
+            model="gemini-2.5-flash-lite",
             contents=prompt,
         )
 
-        
-        raw_text = response.text.replace("```json", "").replace("```", "").strip()
-        
+        raw_text = response.text.replace(
+            "```json", "").replace("```", "").strip()
+
         parsed_json = json.loads(raw_text)
 
         return parsed_json
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error en IA: {str(e)}")
+
 
 @app.post("/analyze-profile")
 async def analyze_profile(req: AnalysisRequest):

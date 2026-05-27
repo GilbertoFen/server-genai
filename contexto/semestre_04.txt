@@ -1,0 +1,219 @@
+Materia: Metodos Numericos 2
+Clave: 1308
+Semestre: 4
+	
+	Grupo 2401 - Numero 1
+	Profesor: Jeanett Lopez Garcia
+	Horario: Lunes y Miercoles de 09:00 a 11:00
+
+	Grupo 2402 - Numero 2
+	Profesor: Mayra Olguin Rosas
+	Horario: Martes y Jueves de 11:00 a 13:00
+
+	Grupo 2403 - Numero 3
+	Profesor: Teresa Carrillo Ramirez
+	Horario: Martes y Jueves de 09:00 a 11:00
+
+	Grupo 2404 - Numero 4
+	Profesor: Teresa Carrillo Ramirez
+	Horario: Lunes y Miercoles de 11:00 a 13:00
+
+	Grupo 2451 - Numero 5
+	Profesor: Teresa Carrillo Ramirez
+	Horario: Martes y Jueves de 16:00 a 18:00
+
+	Grupo 2452 - Numero 6
+	Profesor: Jeanett Lopez Garcia
+	Horario: Martes y Jueves de 14:00 a 16:00
+
+	Grupo 2454 - Numero 7
+	Profesor: Carlos pedro Curiel Garcia
+	Horario: Martes y Jueves de 16:00 a 18:00
+
+---
+
+Materia: Teoria de Graficas
+Clave: 1310
+Semestre: 4
+	
+	Grupo 2401 - Numero 1
+	Profesor: Anabel Moreno Baltazar 
+	Horario: Lunes y Miercoles de 07:00 a 09:00
+
+	Grupo 2402 - Numero 2
+	Profesor: Sandra Muñoz Altamirano
+	Horario: Martes y Jueves de 09:00 a 11:00
+
+	Grupo 2403 - Numero 3
+	Profesor: Guadalupe Del Carmen Rodriguez Moreno
+	Horario: Lunes y Miercoles de 07:00 a 09:00
+
+	Grupo 2404 - Numero 4
+	Profesor: Jeanett Lopez Gacia
+	Horario: Martes y Jueves de 11:00 a 13:00
+
+	Grupo 2451 - Numero 5
+	Profesor: Fernando Manzanares Alvarez
+	Horario: Lunes y Miercoles de 20:00 a 22:00
+
+	Grupo 2452 - Numero 6
+	Profesor: Monica Zaima Víquez Cano
+	Horario: Martes y Jueves de 16:00 a 18:00
+
+	Grupo 2253 - Numero 7
+	Profesor: Sergio Miguel Rosales Sanchez
+	Horario: Martes y Jueves de 18:00 a 20:00
+
+	Grupo 2254 - Numero 8
+	Profesor: Jeanett Lopez Garcia
+	Horario: Lunes y Miercoles de 14:00 a 16:00
+
+---
+
+Materia: Base de Datos
+Clave: 1406
+Semestre: 4
+	
+	Grupo 2401 - Numero 1
+	Profesor: Aaron Vasquez Diaz
+	Horario: Lunes y Miércoles de 07:00 a 10:00
+
+	Grupo 2402 - Numero 2
+	Profesor: Ricardo Dominguez Esquerro
+	Horario: Lunes, Miércoles y Viernes de 07:00 a 09:00
+
+	Grupo 2403 - Numero 3
+	Profesor: Dulce Lourdes Loza Pacheco
+	Horario: Martes, Jueves y Viernes de 07:00 a 09:00
+
+	Grupo 2404 - Numero 4
+	Profesor: Celina Katya Del Toro Oblea
+	Horario: Lunes, Miércoles y Viernes de 09:00 a 11:00
+
+	Grupo 2405 - Numero 5
+	Profesor: Armando Garcia Espinosa
+	Horario: Lunes, Miércoles y Viernes de 09:00 a 11:00
+
+	Grupo 2451 - Numero 6
+	Profesor: Dyana Erika Marron Luna
+	Horario: Lunes, Miércoles y Viernes de 18:00 a 20:00
+
+	Grupo 2452 - Numero 7
+	Profesor: Juan Jose Cortes Buenrostro
+	Horario: Lunes, Miércoles y Viernes de 20:00 a 22:00
+
+	Grupo 2453 - Numero 8
+	Profesor: Roberto Lazcano Gonzalez
+	Horario: Martes, Jueves y Viernes de 20:00 a 22:00
+
+	Grupo 2454 - Numero 9
+	Profesor: Andres Hernandez Balderas
+	Horario: Lunes, Miércoles y Viernes de 18:00 a 20:00
+	
+---
+
+Materia: Probabilidad
+Clave: 1410
+Semestre: 4
+	
+	Grupo 2401 - Numero 1
+	Profesor: Claudia Cristina Reyes Montes de Oca
+	Horario: Martes, Jueves de 11:00 a 13:00 y Viernes de 09:00 a 11:00
+
+	Grupo 2402 - Numero 2
+	Profesor: Maria Andrea Suarez Garcia
+	Horario: Lunes, Miércoles y Viernes de 11:00 a 13:00
+
+	Grupo 2403 - Numero 3
+	Profesor: Claudia Cristina Montes de oca
+	Horario: Martes, Jueves y Viernes de 11:00 a 13:00
+
+	Grupo 2404 - Numero 4
+	Profesor: Luz Maria Lavin Alanis
+	Horario: Martes, Jueves y Viernes de 11:00 a 13:00
+
+	Grupo 2451 - Numero 6
+	Profesor: Ricardo Hernandez Fajardo
+	Horario: Martes, Jueves y Viernes de 20:00 a 22:00
+
+	Grupo 2452 - Numero 7
+	Profesor: Gabriel Delgado Juarez
+	Horario: Lunes, Miércoles y Viernes de 18:00 a 20:00
+
+	Grupo 2453 - Numero 8
+	Profesor: Sandra Ortiz Mendoza
+	Horario: Lunes, Miercoles y Viernes de 18:00 a 20:00
+
+	Grupo 2454 - Numero 9
+	Profesor: Cesar Gabriel Apolinar Joaquin
+	Horario: Lunes, Miércoles y Viernes de 20:00 a 22:00
+	
+---
+
+Materia: Calculo 4
+Clave: 1411
+Semestre: 4
+	
+	Grupo 2401 - Numero 1
+	Profesor: Jorge Javier Jimenez Zamudio
+	Horario: Lunes y Miércoles de 11:00 a 13:00
+
+	Grupo 2402 - Numero 2
+	Profesor: Alberto Lazcano Garcia
+	Horario: Lunes, Miércoles y Viernes de 09:00 a 11:00
+
+	Grupo 2403 - Numero 3
+	Profesor: Gustavo Gonzalez Ramos
+	Horario: Martes, Miercoles y Viernes de 09:00 a 11:00
+
+	Grupo 2404 - Numero 4
+	Profesor: jose Alberto Melendez Piña
+	Horario: Lunes, Miércoles y Viernes de 07:00 a 09:00
+
+	Grupo 2405 - Numero 5
+	Profesor: Wendy Coronel Ramirez
+	Horario: Lunes, Miércoles y Viernes de 07:00 a 09:00
+
+	Grupo 2451 - Numero 6
+	Profesor: hector Axel Saavedra Luis
+	Horario: Lunes, Miércoles y Viernes de 16:00 a 18:00
+
+	Grupo 2452 - Numero 7
+	Profesor: Gustavo Gonzalez Ramos
+	Horario: Lunes, Miércoles y Viernes de 16:00 a 18:00
+
+	Grupo 2453 - Numero 8
+	Profesor: Socorro Martinez Jose
+	Horario: Lunes, Miercoles y Viernes de 14:00 a 16:00
+	
+---
+
+Materia: Ingles Avanzado 1
+Clave: 1412
+Semestre: 4
+	
+	Grupo 2401 - Numero 1
+	Profesor: Nancy Michelle Medina Valenzuela
+	Horario: Lunes, Miercoles y Viernes de 13:00 a 15:00
+
+	Grupo 2402 - Numero 2
+	Profesor: Gabriela Vazquez Maru
+	Horario: Lunes de 13:00 a 15:00, Martes y Jueves de 07:00 a 09:00
+
+	Grupo 2403 - Numero 3
+	Profesor: Melissa Itzal Gutierrez Perez
+	Horario: Lunes de 13:00 a 15:00, Martes y Jueves de 11:00 a 13:00
+
+	Grupo 2251 - Numero 4
+	Profesor: Francisco Javier Guasco Zuñiga
+	Horario: Viernes de 14:00 a 16:00, Martes y Jueves de 18:00 a 20:00
+
+	Grupo 2252 - Numero 5
+	Profesor: Juan Pablo Barrera Gutierrez
+	Horario: Jueves de 18:00 a 20:00, Lunes y Martes de 18:00 a 20:00
+
+	Grupo 2253 - Numero 7
+	Profesor: Nancy Michelle Medina Valenzuela
+	Horario: Martes, Jueves y Viernes de 16:00 a 18:00
+
+
